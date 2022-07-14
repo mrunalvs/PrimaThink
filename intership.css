@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form1{
+    background-color: rgba(42, 8, 49, 0.616);
+    /* width: 25vw;
+    height: 75vh; */
+    text-align: centre;
+    
+    color: white;
+    /* padding-left: 1vw; */
+    position: absolute;
+    left: 39vw;
+    top:4vh;
+    font-size: 2vh;
+    padding: 0 1vw;
+    font-family: 'Lusitana', serif;
+}
+body{
+    background-image: url("https://c0.wallpaperflare.com/preview/530/273/82/laptop-apple-macbook-computer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+H1{
+    color:rgb(254, 253, 255) ;
+    padding-top: 3vh;
+}
+.navbar ul{
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 5vh;
+    
+    
+}
+.navbar ul li:hover{
+    color: pink;
+}
+.navbar ul li{
+    display: inline;
+    color: white;
+    padding:1vh;
+    margin:2px 6px;
+}
+footer{
+    background-color: black;
+    color:white;
+    height: 5vh;
+    text-align: center;
+    font-size: 2vh;
+   position: fixed;
+   bottom: 0;
+   width: 100vw;
+}
+.logo{
+    width: 5vw;
+    height: 6vh;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-image: url("/images/newlogo.png");
+    background-size: 5vw 6vh;
+    background-repeat: no-repeat;
+    
+    }

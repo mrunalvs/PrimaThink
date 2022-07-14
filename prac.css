@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(255, 255, 255) ;
+    background-image: url("https://images.hdqwalls.com/download/computer-laptop-desk-light-lamp-dark-room-fa-1366x768.jpg");
+    background-size: 100vw 100vh;
+}
+
+.navbar ul{
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 5vh;
+    
+    
+}
+.navbar ul li:hover{
+    color: pink;
+}
+.navbar ul li{
+    display: inline;
+    color: white;
+    padding:1vh;
+    margin:2px 6px;
+    font-family: 'Courgette', cursive;
+       
+}
+
+.box1{
+    /* display: inline-block; */
+    width:50%;
+    height: auto;
+    /* background-color:white; */
+    color: rgb(27, 173, 231);
+    font-size: 3vh;
+    font-family: 'Corinthia', cursive;
+    padding-left: 2vw;
+   
+    
+}
+.box2{
+    /* display: inline-block; */
+    width:50%;
+    height: 100vh;
+    /* background-color: white; */
+    background-image: url("/images/website.gif");
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-position: top center;
+    background-position: left;
+    opacity: 0.1;
+   
+/* font-family: 'Permanent Marker', cursive; */
+}
+h2{
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+    /* margin-top: 1vh; */
+    /* padding-bottom: 15px; */
+}
+
+footer{
+    background-color: black;
+    color:white;
+    height: 5vh;
+    text-align: center;
+    font-size: 2vh;
+   
+}
+.box1 pre{
+    font-family: 'Corinthia', cursive;
+    color: rgb(186, 149, 211);
+}
+
+
+.info {
+    font-size: 2.5vh;
+    font-family: 'Permanent Marker', cursive;
+    color: hotpink;
+    /* padding-left: 4vw; */
+    /* padding-top: 0.5vh; */
+    
+}
+
+
+.logo{
+    background-image: url('/images/newlogo.png');
+    background-size: 8vw 12vh;
+height: 15vh;
+width: 8vw;
+position: absolute;
+top:0;
+right:0;
+border-radius: 20px;
+
+}
+.info ul {  
+    display: block;
+    position: relative;
+    left:3vw;
+    list-style: disc black;
+} 
+
+.info ul li{
+    /* display: inline-block; */
+    /* background-color: white; */
+    width: 17vw;
+    margin: 2px;
+    position: relative;
+}
+    
+
+.navbar ul li a{
+    text-decoration: none ;
+    color: white;
+    
+}
+.navbar ul li a:hover{
+
+    color:rgb(241, 21, 131);
+}
+.container{
+    display: flex;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    color: black;
+}
+.container ul li a{
+    text-decoration: none;
+    color: pink;
+}

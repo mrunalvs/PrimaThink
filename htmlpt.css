@@ -1,0 +1,116 @@
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/34/9f/b6/349fb611022ec7f6176d26321fce0011.gif");
+    background-image: url("https://wallpaper.dog/large/20382869.jpg");
+    background-repeat: repeat-y;
+    background-size: 100vw 100vh;
+ 
+}
+/* .main{
+    background-color: rgba(50, 27, 136, 0.267);
+} */
+.container0{
+display: flex;
+flex-direction: row;
+margin-top: 1vh;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0);
+  
+  
+}
+.box0{
+    height:2vh;
+    width:8vw;
+        background-color:rgba(255, 255, 255, 0);
+        background-image: url("images/htmlpt.png");
+        background-size:3vw 5vh ;
+        background-repeat: no-repeat;
+        background-position: right;
+        text-align: center;
+        /* padding: 20px; */
+        padding-top: 4vh;
+       
+    }
+.box1{
+        height:3vh;
+        width:5vw;
+        background-color:rgba(255, 255, 255, 0);
+        font-size: 5vh;
+        color:white;
+        font-family: 'Courgette', cursive;
+       
+    }
+    
+.box2{
+        height:auto;
+        width:90vw;
+        background-color: rgba(255, 255, 255, 0);
+        font-size: 2vh;
+        padding: 20px;
+        color: white;
+        font-family: 'Lobster', cursive;
+        font-family: 'Bad Script', cursive;
+    }
+.box3{
+        height:auto;
+        width:90vw;
+        background-color: rgba(255, 255, 255, 0);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 20px;
+        font-size: 2vh;
+        color: white;font-family: 'Lobster', cursive;
+        font-family: 'Bad Script', cursive;
+    }
+    footer{
+        background-color: black;
+        color:white;
+        height: 2vh;
+        text-align: center;
+        font-size: 2vh;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+       
+    }
+    .navbar ul{
+        background-color: rgba(0, 0, 0, 0.623);
+        height: 5vh;
+        
+        
+    }
+    .navbar ul li:hover{
+        color: pink;
+    }
+    .navbar ul li{
+        display: inline;
+        color: white;
+        padding:1vh;
+        margin:2px 6px;
+        font-family: 'Courgette', cursive;
+        
+       
+    }
+    .logo{
+        width: 5vw;
+        height: 6vh;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        background-image: url("/images/newlogo.png");
+        background-size: 5vw 6vh;
+        background-repeat: no-repeat;
+        
+        }
